@@ -6,18 +6,24 @@
 //  Copyright (c) 2013 James Cryer. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ImageViewController.h"
 
-@interface ViewController ()
+@interface ImageViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ImageViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    CGRect insetFrame = CGRectMake(12, 12, self.view.frame.size.width - 12, self.view.frame.size.height - 12);
+    _imageView = [[UIImageView alloc] initWithFrame:insetFrame];
+    _imageView.backgroundColor = [UIColor clearColor];
+    [_imageView setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
+    [_imageView setImage:[UIImage imageNamed:_model.imageName]];
+    [[self view] addSubview:_imageView];
 }
 
 - (void)didReceiveMemoryWarning

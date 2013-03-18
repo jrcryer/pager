@@ -17,7 +17,15 @@
 		1A8B942216F68C810066F608 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B942116F68C810066F608 /* Default@2x.png */; };
 		1A8B942416F68C810066F608 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B942316F68C810066F608 /* Default-568h@2x.png */; };
 		1A8B942716F68C810066F608 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B942516F68C810066F608 /* MainStoryboard.storyboard */; };
-		1A8B942A16F68C810066F608 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B942916F68C810066F608 /* ViewController.m */; };
+		1A8B942A16F68C810066F608 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B942916F68C810066F608 /* ImageViewController.m */; };
+		1A8B943716F68CE40066F608 /* hallows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B943116F68CE40066F608 /* hallows.jpg */; };
+		1A8B943816F68CE40066F608 /* goblet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B943216F68CE40066F608 /* goblet.jpg */; };
+		1A8B943916F68CE40066F608 /* angels-demons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B943316F68CE40066F608 /* angels-demons.jpg */; };
+		1A8B943A16F68CE40066F608 /* bilbo-song.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B943416F68CE40066F608 /* bilbo-song.png */; };
+		1A8B943B16F68CE40066F608 /* bard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B943516F68CE40066F608 /* bard.jpg */; };
+		1A8B943C16F68CE40066F608 /* azkaban.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B943616F68CE40066F608 /* azkaban.jpg */; };
+		1A8B943F16F68D070066F608 /* BookCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B943E16F68D070066F608 /* BookCover.m */; };
+		1A8B944216F68E440066F608 /* BooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B944116F68E440066F608 /* BooksViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +43,18 @@
 		1A8B942116F68C810066F608 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1A8B942316F68C810066F608 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1A8B942616F68C810066F608 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1A8B942816F68C810066F608 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A8B942916F68C810066F608 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A8B942816F68C810066F608 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		1A8B942916F68C810066F608 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		1A8B943116F68CE40066F608 /* hallows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hallows.jpg; sourceTree = "<group>"; };
+		1A8B943216F68CE40066F608 /* goblet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goblet.jpg; sourceTree = "<group>"; };
+		1A8B943316F68CE40066F608 /* angels-demons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angels-demons.jpg"; sourceTree = "<group>"; };
+		1A8B943416F68CE40066F608 /* bilbo-song.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bilbo-song.png"; sourceTree = "<group>"; };
+		1A8B943516F68CE40066F608 /* bard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bard.jpg; sourceTree = "<group>"; };
+		1A8B943616F68CE40066F608 /* azkaban.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = azkaban.jpg; sourceTree = "<group>"; };
+		1A8B943D16F68D070066F608 /* BookCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCover.h; sourceTree = "<group>"; };
+		1A8B943E16F68D070066F608 /* BookCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCover.m; sourceTree = "<group>"; };
+		1A8B944016F68E440066F608 /* BooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksViewController.h; sourceTree = "<group>"; };
+		1A8B944116F68E440066F608 /* BooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +101,16 @@
 		1A8B941316F68C810066F608 /* BookRater */ = {
 			isa = PBXGroup;
 			children = (
+				1A8B943016F68CD60066F608 /* images */,
+				1A8B943D16F68D070066F608 /* BookCover.h */,
+				1A8B943E16F68D070066F608 /* BookCover.m */,
+				1A8B944016F68E440066F608 /* BooksViewController.h */,
+				1A8B944116F68E440066F608 /* BooksViewController.m */,
 				1A8B941C16F68C810066F608 /* AppDelegate.h */,
 				1A8B941D16F68C810066F608 /* AppDelegate.m */,
 				1A8B942516F68C810066F608 /* MainStoryboard.storyboard */,
-				1A8B942816F68C810066F608 /* ViewController.h */,
-				1A8B942916F68C810066F608 /* ViewController.m */,
+				1A8B942816F68C810066F608 /* ImageViewController.h */,
+				1A8B942916F68C810066F608 /* ImageViewController.m */,
 				1A8B941416F68C810066F608 /* Supporting Files */,
 			);
 			path = BookRater;
@@ -105,6 +128,19 @@
 				1A8B942316F68C810066F608 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A8B943016F68CD60066F608 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B943116F68CE40066F608 /* hallows.jpg */,
+				1A8B943216F68CE40066F608 /* goblet.jpg */,
+				1A8B943316F68CE40066F608 /* angels-demons.jpg */,
+				1A8B943416F68CE40066F608 /* bilbo-song.png */,
+				1A8B943516F68CE40066F608 /* bard.jpg */,
+				1A8B943616F68CE40066F608 /* azkaban.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +199,12 @@
 				1A8B942216F68C810066F608 /* Default@2x.png in Resources */,
 				1A8B942416F68C810066F608 /* Default-568h@2x.png in Resources */,
 				1A8B942716F68C810066F608 /* MainStoryboard.storyboard in Resources */,
+				1A8B943716F68CE40066F608 /* hallows.jpg in Resources */,
+				1A8B943816F68CE40066F608 /* goblet.jpg in Resources */,
+				1A8B943916F68CE40066F608 /* angels-demons.jpg in Resources */,
+				1A8B943A16F68CE40066F608 /* bilbo-song.png in Resources */,
+				1A8B943B16F68CE40066F608 /* bard.jpg in Resources */,
+				1A8B943C16F68CE40066F608 /* azkaban.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +217,9 @@
 			files = (
 				1A8B941A16F68C810066F608 /* main.m in Sources */,
 				1A8B941E16F68C810066F608 /* AppDelegate.m in Sources */,
-				1A8B942A16F68C810066F608 /* ViewController.m in Sources */,
+				1A8B942A16F68C810066F608 /* ImageViewController.m in Sources */,
+				1A8B943F16F68D070066F608 /* BookCover.m in Sources */,
+				1A8B944216F68E440066F608 /* BooksViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

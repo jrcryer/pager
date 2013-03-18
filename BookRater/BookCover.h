@@ -10,4 +10,9 @@
 
 @interface BookCover : NSObject
 
+- (id)initWithImageName:(NSString *)imageName;
+
+@property (nonatomic, strong) NSString *imageName;
+@property (nonatomic) NSInteger rating;
+
 @end
